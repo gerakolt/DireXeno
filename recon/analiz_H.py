@@ -79,7 +79,7 @@ plt.axvline(blw_cut, 0,1, color='k', linewidth=3)
 
 plt.figure()
 plt.title('Chi2')
-plt.step(0.5*(Chi2bins[1:]+BLWbins[:-1]), Chi2, where='mid')
+plt.step(0.5*(Chi2bins[1:]+Chi2bins[:-1]), Chi2, where='mid')
 plt.axvline(chi2_cut, 0,1, color='k', linewidth=3)
 
 
